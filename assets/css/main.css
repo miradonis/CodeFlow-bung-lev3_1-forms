@@ -1,0 +1,141 @@
+/*============================
+            GENERAL
+============================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body section {
+    width: 25vw;
+    margin: 10vh auto 10vh auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 20px;
+}
+
+body section form {
+    width: 25vw;
+}
+
+body section form h2 {
+    margin-bottom: 2vh;
+    color: #3282A0;
+}
+
+/*============================
+            HEADER
+============================*/
+body section header {
+    width: 100%;
+    padding: 2vh 0;
+    background-color: #3282A0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
+
+body section header h1,
+body section header p {
+    margin-left: 2vw;
+}
+
+body section header h1 {
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+/*============================
+            FORM
+============================*/
+
+body section form h2 {
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+
+body section form label {
+    display: block;
+    margin: 2vh 0 0 2vw;
+}
+
+/*============================
+            ARTICLE
+============================*/
+body section form article {
+    width: 21vw;
+    margin: 0 auto;
+    background-color: rgb(230, 230, 230);
+    padding: 2vh 0 5vh 0;
+}
+
+/*========================ARTICLE 1=======================*/
+.name__adress label input {
+    padding: 1vh 9.2vw 1vh 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.name__adress textarea {
+    min-width: 17vw;
+    max-width: 17vw;
+    min-height: 7vh;
+    max-height: 10vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 2vw;
+}
+
+/*========================ARTICLE 2=======================*/
+.email__phone label input {
+    padding: 1vh 9.2vw 1vh 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+/*========================ARTICLE 3=======================*/
+.password label input {
+    padding: 1vh 9.2vw 1vh 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.password {
+    margin-bottom: 4vh;
+}
+
+/*========================FOOTER=======================*/
+
+body section footer {
+    width: 100%;
+    padding: 4vh 0;
+    background-color: #3282A0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+body section footer button {
+    margin-left: 2vw;
+    font-weight: bold;
+    color: #3282A0;
+    padding: 1.2vh 1.4vw 1.2vh 1.4vw;
+    border: transparent;
+    border-radius: 20px;
+}
+
+body section footer button:hover {
+    background-color: #1a4858;
+    color: white;
+}
+
+input[type="checkbox"] {
+    margin-left: 3vw;
+}
+
+body section footer label {
+    font-size: .9rem;
+}
